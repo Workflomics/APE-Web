@@ -1,0 +1,43 @@
+name: frontend-build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-frontend:
+    name: Build front-end
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 16
+          cache: "npm"
+          cache-dependency-path: front-end/package-lock.json
+      - run: |
+          cd front-end
+          npm install
+          npm run build
+          npm run test
+
+  lint-frontend:
+    name: Lint front-end
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 16
+          cache: "npm"
+          cache-dependency-path: front-end/package-lock.json
+      - run: |
+          cd front-end
+          npm install
+          npm run lint
