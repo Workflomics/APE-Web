@@ -3,7 +3,6 @@
 [![Latest release](https://img.shields.io/github/release/workflomics/APE-Web.svg)](https://github.com/workflomics/APE-Web/releases/latest)
 [![frontend-build](https://github.com/Workflomics/APE-Web/actions/workflows/frontend-build.yml/badge.svg)](https://github.com/Workflomics/APE-Web/actions/workflows/frontend-build.yml)
 [![backend-build](https://github.com/Workflomics/APE-Web/actions/workflows/backend-build.yml/badge.svg)](https://github.com/Workflomics/APE-Web/actions/workflows/backend-build.yml)
-[![Build](https://github.com/workflomics/APE-web/actions/workflows/build.yml/badge.svg)](https://github.com/workflomics/APE-web/actions/workflows/build.yml)
 [![GitHub license](https://img.shields.io/github/license/workflomics/APE-Web)](https://github.com/workflomics/APE-Web/blob/main/LICENSE)
 [![DOI](https://zenodo.org/badge/360515462.svg)](https://zenodo.org/badge/latestdoi/360515462)
 
@@ -60,9 +59,9 @@ This project was initially developed by students from the bachelor Computer Scie
 * Sarrisa Wouts
 
 Currently, it is being maintained by:
-* Vedran Kasalica (v.kasalica[at]uu.nl), lead developer
+* Vedran Kasalica, lead developer
 * Koen Haverkort, student developer
-* Anna-Lena Lamprecht (a.l.lamprecht[at]uu.nl), project initiator and principal investigator
+* Anna-Lena Lamprecht, project initiator and principal investigator
 
 ## Contact
 
@@ -71,7 +70,7 @@ For any questions concerning APE please get in touch with Vedran Kasalica (v.kas
 ## Contributions
 
 We welcome contributions (bug reports, bug fixes, feature requests, extensions, use cases, ...) to APE.
-Please get in touch with Vedran Kasalica (v.kasalica@uu.nl) to coordinate your contribution.
+Please get in touch with Anna-Lena Lamprecht to coordinate your contribution.
 We expect all contributors to follow our Code of Conduct.
 
 ## License
